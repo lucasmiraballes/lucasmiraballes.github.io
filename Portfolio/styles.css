@@ -1,0 +1,168 @@
+body {
+    background-image:url(./blue_bg.avif);
+    background-size:cover;
+    color:rgb(214, 214, 214);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-size: 0.6em;
+}
+
+.renglon {
+    opacity:0.5;
+    border-color:rgb(69, 80, 236);
+}
+
+.titulo_encabezado {
+    margin: 0;
+    margin-right:30px;
+    transition:1s;
+    cursor:pointer;
+}
+
+.titulo_encabezado:hover {
+    color:rgb(69, 80, 236);
+    transition:0.6s;
+    font-size:1.6em;
+}
+
+#lm_logo {
+    text-align:center;
+    margin-top:1.5em;
+}
+
+.img_logo {
+    width:5em;
+    opacity:0.8;
+    margin-top:2em;
+    border-radius:1em;
+}
+
+#sobre_mi, #estudios, #exp, #contact_me {
+    margin-left: 15em;
+    margin-right: 15em;
+    margin-top:2.5em;
+    margin-bottom: 9em;
+    border: 2px solid rgba(69, 80, 236, 0.479);
+    border-radius:0.5em;
+    padding-left:2em;
+    padding-right:2em;
+    background-image:url(./conn.jpg);
+    background-size:cover;
+}
+
+.sobre_mi_tit, .estudios_tit, .exp_tit, .contact_me {
+    text-align:center;
+    font-size: 3.5em;
+    transition:1s;
+    color:rgb(54, 86, 228);
+    cursor: default;
+}
+
+.sobre_mi_tit:hover, .estudios_tit:hover, .exp_tit:hover, .contact_me:hover {
+    color:rgb(15, 173, 120);
+    transition:1s;
+    font-size: 3.8em;
+}
+
+#name_p {
+    line-height:1.6;
+    font-size: 1.7em;
+    color:rgb(15, 173, 120);
+}
+
+.sobre_mi_desc, .estudios_tabla {
+    text-align:center;
+    line-height:1.5;
+    margin-bottom:2.5em;
+}
+
+.estudios_tabla {
+    width: 100%;
+    border-collapse:collapse;
+    border: 1px solid rgb(54, 86, 228);
+    padding: 10px;
+    line-height:1.7;
+    text-align:center;
+}
+
+.estudios_tabla th {
+    color:rgb(15, 173, 120);
+    font-size: 1.4em;
+}
+
+.estudios_tabla td {
+    border: 1px solid rgb(54, 86, 228);
+}
+
+
+.li_text {
+    color:rgb(15, 173, 120);
+}
+
+.p1 {
+    margin-left:1em;
+    margin-right:8em;
+}
+
+.p2 {
+    text-align:justify;
+    margin-right:2em;
+    color:rgba(165, 216, 178, 0.849);
+}
+
+.img_languages {
+    width:5em;
+    display:inline-block;
+    margin-left:1em;
+    opacity:0.8;
+}
+
+
+.img_c {
+    display:inline-block;
+    justify-content:space-between;
+    margin: 0;
+    margin-right:30px;
+}
+
+.img_contacts {
+    width:5em;
+    margin-left:1em;
+    opacity:0.8;
+}
+
+#contact_me {
+    text-align: center;
+  }
+  
+.img_c {
+    display: flex; 
+    justify-content: center; 
+    gap: 10em;
+}
+  
+.img_contactos {
+    max-width: 70px;
+    height: auto; 
+    margin-bottom:2em;
+    transition: 1s;
+    border-radius:1em;
+}
+
+#img_li:hover, #img_gh:hover, #img_e:hover {
+    max-width:80px;
+    height:auto;
+    background-color:rgb(69, 80, 236);
+}
+
+.pie_text {
+    text-align:right;
+    font-size:0.77em;
+    color:grey;
+}
